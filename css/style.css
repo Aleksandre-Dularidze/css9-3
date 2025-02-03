@@ -471,7 +471,8 @@ input:focus {
     }
 
     .cards {
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
 
     .searchBox {
@@ -480,5 +481,8 @@ input:focus {
 
     .wrapper {
         padding: 16px 16px 104px 16px;
+    }
+    .card {
+      width: 100%;
     }
 }
